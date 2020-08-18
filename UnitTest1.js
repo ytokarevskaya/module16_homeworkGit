@@ -1,8 +1,8 @@
 function checkAge(age) {
     if (age > 18) {
-        console.log('Доступ открыт')
+        return 'Доступ открыт';
     } else {
-        console.log('Доступ ограничен')
+        return 'Доступ ограничен';
     }
 }
 
